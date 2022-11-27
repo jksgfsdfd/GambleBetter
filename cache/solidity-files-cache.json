@@ -1,0 +1,334 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/ETHtoLINKContract.sol": {
+      "lastModificationDate": 1666631329436,
+      "contentHash": "02e79acab2783519e3a2e5b9d88ee71f",
+      "sourceName": "contracts/ETHtoLINKContract.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/LinkTokenInterface.sol",
+        "./interfaces/iAggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "0.8.8"
+      ],
+      "artifacts": [
+        "ETHtoLink"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/interfaces/LinkTokenInterface.sol": {
+      "lastModificationDate": 1666422123587,
+      "contentHash": "ebd60b878b20339d0fafad5ea8d053f5",
+      "sourceName": "contracts/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/interfaces/iAggregatorV3Interface.sol": {
+      "lastModificationDate": 1666434773126,
+      "contentHash": "cb2bf52293c3017801ef5a0b5234c9cc",
+      "sourceName": "contracts/interfaces/iAggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/GambleContract.sol": {
+      "lastModificationDate": 1666676450564,
+      "contentHash": "39c2ed6807297b62a64bedca7b8a0f1c",
+      "sourceName": "contracts/GambleContract.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/iVRFV2WrapperInterface.sol",
+        "./interfaces/iAggregatorV3Interface.sol",
+        "./interfaces/iETHtoLINKInterface.sol",
+        "./interfaces/LinkTokenInterface.sol"
+      ],
+      "versionPragmas": [
+        "0.8.8"
+      ],
+      "artifacts": [
+        "GambleContract"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/interfaces/iVRFV2WrapperInterface.sol": {
+      "lastModificationDate": 1666427239057,
+      "contentHash": "8334905ad376fc40aef5b311bea82394",
+      "sourceName": "contracts/interfaces/iVRFV2WrapperInterface.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFV2WrapperInterface"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/interfaces/iETHtoLINKInterface.sol": {
+      "lastModificationDate": 1666631290729,
+      "contentHash": "ac261c33ac600ef34687b2671a347c39",
+      "sourceName": "contracts/interfaces/iETHtoLINKInterface.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.8"
+      ],
+      "artifacts": [
+        "ETHtoLinkInterface"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/ManagerContract.sol": {
+      "lastModificationDate": 1666689685080,
+      "contentHash": "5276ce7ce3c1e511b0cb914f0a12326a",
+      "sourceName": "contracts/ManagerContract.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GambleContract.sol",
+        "./interfaces/iVRFV2WrapperInterface.sol"
+      ],
+      "versionPragmas": [
+        "0.8.8"
+      ],
+      "artifacts": [
+        "ManagerContract"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/VRFV2WrapperConsumerBase.sol": {
+      "lastModificationDate": 1666427452606,
+      "contentHash": "a7294ba22a4039e736fa75a1931c8a0d",
+      "sourceName": "contracts/VRFV2WrapperConsumerBase.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/LinkTokenInterface.sol",
+        "./interfaces/iVRFV2WrapperInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFV2WrapperConsumerBase"
+      ]
+    },
+    "/home/ronmaa/CS/Web3/GambleBetterV1_DirectFunding/contracts/interfaces/iVRFCoordinatorV2.sol": {
+      "lastModificationDate": 1666422123587,
+      "contentHash": "a4014b0d716d45334ab589fc1a2d8011",
+      "sourceName": "contracts/interfaces/iVRFCoordinatorV2.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFCoordinatorV2Interface"
+      ]
+    }
+  }
+}
